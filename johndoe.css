@@ -3617,7 +3617,7 @@ input[type="button"].btn-block {
   display: block;
 }
 
-.dropdown-header {
+.dropdown- {
   display: block;
   padding: 0.5rem 1.5rem;
   margin-bottom: 0;
@@ -5106,18 +5106,18 @@ input[type="button"].btn-block {
   margin-left: 1.25rem;
 }
 
-.card-header {
+.card- {
   padding: 0.75rem 1.25rem;
   margin-bottom: 0;
   background-color: rgba(0, 0, 0, 0.03);
   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
 }
 
-.card-header:first-child {
+.card-:first-child {
   border-radius: calc(0 - 1px) calc(0 - 1px) 0 0;
 }
 
-.card-header + .list-group .list-group-item:first-child {
+.card- + .list-group .list-group-item:first-child {
   border-top: 0;
 }
 
@@ -5131,14 +5131,14 @@ input[type="button"].btn-block {
   border-radius: 0 0 calc(0 - 1px) calc(0 - 1px);
 }
 
-.card-header-tabs {
+.card--tabs {
   margin-right: -0.625rem;
   margin-bottom: -0.75rem;
   margin-left: -0.625rem;
   border-bottom: 0;
 }
 
-.card-header-pills {
+.card--pills {
   margin-right: -0.625rem;
   margin-left: -0.625rem;
 }
@@ -5255,7 +5255,7 @@ input[type="button"].btn-block {
     border-bottom-right-radius: 0;
   }
   .card-group > .card:not(:last-child) .card-img-top,
-  .card-group > .card:not(:last-child) .card-header {
+  .card-group > .card:not(:last-child) .card- {
     border-top-right-radius: 0;
   }
   .card-group > .card:not(:last-child) .card-img-bottom,
@@ -5267,7 +5267,7 @@ input[type="button"].btn-block {
     border-bottom-left-radius: 0;
   }
   .card-group > .card:not(:first-child) .card-img-top,
-  .card-group > .card:not(:first-child) .card-header {
+  .card-group > .card:not(:first-child) .card- {
     border-top-left-radius: 0;
   }
   .card-group > .card:not(:first-child) .card-img-bottom,
@@ -5301,7 +5301,7 @@ input[type="button"].btn-block {
   overflow: hidden;
 }
 
-.accordion > .card:not(:first-of-type) .card-header:first-child {
+.accordion > .card:not(:first-of-type) .card-:first-child {
   border-radius: 0;
 }
 
@@ -5321,7 +5321,7 @@ input[type="button"].btn-block {
   border-top-right-radius: 0;
 }
 
-.accordion > .card .card-header {
+.accordion > .card .card- {
   margin-bottom: -1px;
 }
 
@@ -6271,7 +6271,7 @@ a.close.disabled {
   display: none;
 }
 
-.toast-header {
+.toast- {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -6355,7 +6355,7 @@ a.close.disabled {
   overflow: hidden;
 }
 
-.modal-dialog-scrollable .modal-header,
+.modal-dialog-scrollable .modal-,
 .modal-dialog-scrollable .modal-footer {
   -webkit-flex-shrink: 0;
       -ms-flex-negative: 0;
@@ -6443,7 +6443,7 @@ a.close.disabled {
   opacity: 0.5;
 }
 
-.modal-header {
+.modal- {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -6462,7 +6462,7 @@ a.close.disabled {
   border-top-right-radius: 0.3rem;
 }
 
-.modal-header .close {
+.modal- .close {
   padding: 1rem 1rem;
   margin: -1rem -1rem -1rem auto;
 }
@@ -6770,7 +6770,7 @@ a.close.disabled {
   border-bottom-color: #fff;
 }
 
-.bs-popover-bottom .popover-header::before, .bs-popover-auto[x-placement^="bottom"] .popover-header::before {
+.bs-popover-bottom .popover-::before, .bs-popover-auto[x-placement^="bottom"] .popover-::before {
   position: absolute;
   top: 0;
   left: 50%;
@@ -6804,7 +6804,7 @@ a.close.disabled {
   border-left-color: #fff;
 }
 
-.popover-header {
+.popover- {
   padding: 0.5rem 0.75rem;
   margin-bottom: 0;
   font-size: 1rem;
@@ -6814,7 +6814,7 @@ a.close.disabled {
   border-top-right-radius: calc(0.3rem - 1px);
 }
 
-.popover-header:empty {
+.popover-:empty {
   display: none;
 }
 
@@ -11506,8 +11506,8 @@ pre .code {
   position: relative;
   height: 80vh;
   min-height: 600px;
-  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/header.jpg);
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/header.jpg);
+  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(header.jpg);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(header.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
